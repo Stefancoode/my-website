@@ -49,6 +49,13 @@ h1 {
 
 .product-price {
     font-size: 1.1rem;
+
+    .product-card:hover {
+    background: #333;  /* Slightly lighter background on hover */
+    transform: scale(1.05);
+
+}
+
     color: #ccc;
     margin-top: 5px;
 }
